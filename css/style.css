@@ -1,0 +1,93 @@
+ *{box-sizing: border-box;} 
+header {
+    height: 100px;
+    width: 100%;
+    background: #3a4049;
+   
+    padding-top: 30px;
+}
+header nav{
+    width: 960px;
+    margin: auto;
+}
+
+header img {
+    float: left;
+    margin-top: 15px;
+}
+/*header nav {
+    float: left;
+}
+*/
+
+header  nav ul li {
+    display: inline-block;
+    padding: 30px 40px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 10px;
+
+}
+main section img{
+    margin-top: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  margin-bottom: 30px;
+
+}
+main article{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+main article img{
+    float: left;
+    width: calc(100%/3);
+    padding: 20px;
+   margin-bottom: 30px;
+}
+
+main div{
+    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div img{
+  float: left;
+  margin-right: 30px;
+}
+
+main div p{
+    background-color: white;
+    width: 450px;
+    height: 370px;
+    overflow: auto;
+}
+main div button{
+width: 150px;
+height: 30px;
+    
+    background-color: black;
+   
+    color: white;
+    cursor:auto;
+    -webkit-transition: background-color 0.35s ease-out;
+    -moz-transition: background-color 0.35s ease-out;
+    -o-transition: background-color 0.35s ease-out;
+    transition: background-color 0.35s ease-out;
+
+}
+main div p span{
+    font-size: larger;
+    font-weight: bold;
+}
+body footer {
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    background: #3a4049}
